@@ -1,0 +1,1663 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.59f1 (630718f645a5) revision 6489880'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32489 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.59f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker24
+-projectPath
+C:/Users/pichu/FinalProjectRepo/FinalProjectAM
+-logFile
+Logs/AssetImportWorker24.log
+-srvPort
+51954
+Successfully changed project path to: C:/Users/pichu/FinalProjectRepo/FinalProjectAM
+C:/Users/pichu/FinalProjectRepo/FinalProjectAM
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10004]  Target information:
+
+Player connection [10004]  * "[IP] 192.168.216.1 [Port] 0 [Flags] 2 [Guid] 3301648406 [EditorId] 3301648406 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-76480M49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10004]  * "[IP] 192.168.58.1 [Port] 0 [Flags] 2 [Guid] 3301648406 [EditorId] 3301648406 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-76480M49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10004]  * "[IP] 10.66.130.134 [Port] 0 [Flags] 2 [Guid] 3301648406 [EditorId] 3301648406 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-76480M49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10004]  * "[IP] 10.6.178.16 [Port] 0 [Flags] 2 [Guid] 3301648406 [EditorId] 3301648406 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-76480M49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10004] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10004] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 17.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.59f1 (630718f645a5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/pichu/FinalProjectRepo/FinalProjectAM/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.7247
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017002 seconds.
+- Loaded All Assemblies, in  0.470 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 374 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.772 seconds
+Domain Reload Profiling: 1239ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (129ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (169ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (773ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (712ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (506ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.832 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.005 seconds
+Domain Reload Profiling: 1831ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (555ms)
+		LoadAssemblies (390ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (259ms)
+			TypeCache.Refresh (223ms)
+				TypeCache.ScanAssembly (197ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1005ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (785ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (72ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (244ms)
+			ProcessInitializeOnLoadAttributes (383ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 6.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4909 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (348.9 KB). Loaded Objects now: 5377.
+Memory consumption went from 202.8 MB to 202.5 MB.
+Total: 4.957300 ms (FindLiveObjects: 0.840900 ms CreateObjectMapping: 0.382500 ms MarkObjects: 3.502000 ms  DeleteObjects: 0.230800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17770.536245 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1025.wav
+  artifactKey: Guid(84c678c4c8f2643c1afb6f6ab2ad3293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1025.wav using Guid(84c678c4c8f2643c1afb6f6ab2ad3293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '56f0035ebdec4d40296ba15b1034bedd') in 0.158858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1094.wav
+  artifactKey: Guid(60e04cb188aff4081a59ce70a1ff20c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1094.wav using Guid(60e04cb188aff4081a59ce70a1ff20c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '077f418354bf22b8cf40af13ab763693') in 0.025365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/SplashScreen/Logo/Dark_Silhouette.png
+  artifactKey: Guid(214f7e62633ee4585a55b459cc6d0f53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/SplashScreen/Logo/Dark_Silhouette.png using Guid(214f7e62633ee4585a55b459cc6d0f53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '07102957d35f268b25b7c07f9acc3a25') in 0.061368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_SLIDE00.fbx
+  artifactKey: Guid(a3657ebe445392e44a81a7b112b9cf0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_SLIDE00.fbx using Guid(a3657ebe445392e44a81a7b112b9cf0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7e0782873a4dae90479bcea0ed407d7d') in 0.065729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 325
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Materials/eye_R1.mat
+  artifactKey: Guid(a87def7cf3654cc43add52e645fee2ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Materials/eye_R1.mat using Guid(a87def7cf3654cc43add52e645fee2ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4e17602f1720a6870de3f34dd9b3d420') in 0.020215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1285.wav
+  artifactKey: Guid(59ba76a3118f946f489f483da6618745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1285.wav using Guid(59ba76a3118f946f489f483da6618745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a1d8d9ba6be153b6a8d0295af708048a') in 0.025192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ0018.wav
+  artifactKey: Guid(9386c5176a28d485f9f58d1031791d32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ0018.wav using Guid(9386c5176a28d485f9f58d1031791d32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c37e8898f0bd13dadd12a5ec9261a998') in 0.021929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1093.wav
+  artifactKey: Guid(14442038946004af3aaf906b64944b5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1093.wav using Guid(14442038946004af3aaf906b64944b5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2d296becb0d6432e67f61849e4174dd8') in 0.026287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Materials/mat_cheek.mat
+  artifactKey: Guid(5f9d44654b83160428d7c4cf276b3572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Materials/mat_cheek.mat using Guid(5f9d44654b83160428d7c4cf276b3572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b2fb5763e1fee12539c716b75c4f70a8') in 0.013022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1137.wav
+  artifactKey: Guid(371083f0be7f3410dbd1db377075072b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1137.wav using Guid(371083f0be7f3410dbd1db377075072b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '58091adbe4a5e6e0302065cb7842dcc2') in 0.025795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1186.wav
+  artifactKey: Guid(0c312b427337d4b18a4ad08d0045268e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1186.wav using Guid(0c312b427337d4b18a4ad08d0045268e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '57b3f68bb4b9f35b6c1caef4c386d299') in 0.022049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1038.wav
+  artifactKey: Guid(1fea949ca16274adb8e4a6a9b673d938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1038.wav using Guid(1fea949ca16274adb8e4a6a9b673d938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '49cac858deb0411f6542f6f4e48d489b') in 0.025547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WALK00_R.fbx
+  artifactKey: Guid(dbc663f7e83140241a679da3ca9063b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WALK00_R.fbx using Guid(dbc663f7e83140241a679da3ca9063b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ab5b8f7c6d6e621541c1409af6800772') in 0.030726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 325
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ0041.wav
+  artifactKey: Guid(ee51d876c275d4d60bded73b21ff3922) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ0041.wav using Guid(ee51d876c275d4d60bded73b21ff3922) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1e23daeac76ab5bf284bd4a75364252f') in 0.023283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_HANDUP00_R.fbx
+  artifactKey: Guid(84ce5ea31570e6b4ca2949b8fe13ee42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_HANDUP00_R.fbx using Guid(84ce5ea31570e6b4ca2949b8fe13ee42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0d97f1d6d848d9222919c235ab59fb3d') in 0.032273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 325
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/Animators/UnityChanLocomotions.controller
+  artifactKey: Guid(8d5a0e0d58f4e4176a844a1a03976c19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/Animators/UnityChanLocomotions.controller using Guid(8d5a0e0d58f4e4176a844a1a03976c19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9c29acd60897ddc88d762ea4efae9249') in 0.043452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1341.wav
+  artifactKey: Guid(2eb33eb78272b4d91ba9d8268e1cc7a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1341.wav using Guid(2eb33eb78272b4d91ba9d8268e1cc7a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fc22ff744988d23f0a0e23527926157a') in 0.024031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ0030.wav
+  artifactKey: Guid(5f1962b28971041f3b08aa2185cca6ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ0030.wav using Guid(5f1962b28971041f3b08aa2185cca6ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ee203993c505d77b0ff579f640a7eada') in 0.025381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1327.wav
+  artifactKey: Guid(9602a4e0e26514a4e87e2a35171daed0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1327.wav using Guid(9602a4e0e26514a4e87e2a35171daed0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89b8eed8253e4f4a70532c695a971ab6') in 0.023702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT03.fbx
+  artifactKey: Guid(f98ead48d3193eb43a7839c6847a5b13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT03.fbx using Guid(f98ead48d3193eb43a7839c6847a5b13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7f681d1f2893b42c6355247fe6e23e70') in 0.034213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 325
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1153.wav
+  artifactKey: Guid(0fe0632a432354ad2b883beabc4ffa69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1153.wav using Guid(0fe0632a432354ad2b883beabc4ffa69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f3914d0a14d67868a41f98f97a0f9b3c') in 0.029131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1311.wav
+  artifactKey: Guid(4e727d6a5f5174c03a8869166aa9aa8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1311.wav using Guid(4e727d6a5f5174c03a8869166aa9aa8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '458f20f66c0fefef3fd9b7fdd7becee3') in 0.025373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1078.wav
+  artifactKey: Guid(9a1a05c0c9dca4f0d8ce99b11d5d05e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1078.wav using Guid(9a1a05c0c9dca4f0d8ce99b11d5d05e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b163752372bb6650f981573f11121aa7') in 0.026686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1080.wav
+  artifactKey: Guid(7113a0021771e479c83f524373b07b05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1080.wav using Guid(7113a0021771e479c83f524373b07b05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '82b7f0d6607dfd979fb124226b571f14') in 0.028018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1014.wav
+  artifactKey: Guid(1699abed5a7da43cabe83d31df9b7fae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1014.wav using Guid(1699abed5a7da43cabe83d31df9b7fae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '358377f63bd31f193750500bb5384b42') in 0.021536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1215.wav
+  artifactKey: Guid(1a9e677892667468f82b2fcbbf28822f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1215.wav using Guid(1a9e677892667468f82b2fcbbf28822f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '79d0774e03383e940a1ce92bbe60c564') in 0.024472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1281.wav
+  artifactKey: Guid(fd657949a63b94144b709e5aeb23a03d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1281.wav using Guid(fd657949a63b94144b709e5aeb23a03d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9174a737506dc86cc41d84871fb97ce0') in 0.024986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1081.wav
+  artifactKey: Guid(c72391e322f664a0caf5d05158db6dae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1081.wav using Guid(c72391e322f664a0caf5d05158db6dae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'be7bd955615e703018ef9b075934131d') in 0.025804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs
+  artifactKey: Guid(bd026706e81db0440add962177d87b23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs using Guid(bd026706e81db0440add962177d87b23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f54a540bba61d80d9f643ce6791ea05e') in 0.012713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/License Logo/Others/png
+  artifactKey: Guid(4e25380b583c4a84e83a50fa064c2a61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/License Logo/Others/png using Guid(4e25380b583c4a84e83a50fa064c2a61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b8d47cce54d798fab8ffa5adeb362f35') in 0.010086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1205.wav
+  artifactKey: Guid(c10f671659fcc437fb0394052b91cb74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1205.wav using Guid(c10f671659fcc437fb0394052b91cb74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b5a22eed1ab766a380ea746f2898d250') in 0.022048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Shader/Unitychan_chara_fuku.shader
+  artifactKey: Guid(00262b50562beb14cbab9b52bced4f9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Shader/Unitychan_chara_fuku.shader using Guid(00262b50562beb14cbab9b52bced4f9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bf095c76e93e391b6931eedb590e5c3e') in 0.015823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Prefabs/Directional light for UnityChan.prefab
+  artifactKey: Guid(b76c71a1e3f6c4fdab657f4fbf5466de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Prefabs/Directional light for UnityChan.prefab using Guid(b76c71a1e3f6c4fdab657f4fbf5466de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6694f548d91ec06656c95f79c968add6') in 0.020204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/eye_iris_L_00.tga
+  artifactKey: Guid(66f06726158899242adaf95180360b7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/eye_iris_L_00.tga using Guid(66f06726158899242adaf95180360b7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9807a779c20eb32984f53f82685e684b') in 0.016472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1031.wav
+  artifactKey: Guid(c66e87e26a6994c768b643743f6494cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1031.wav using Guid(c66e87e26a6994c768b643743f6494cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a8e076af76e4202983063d8eea06fa38') in 0.023245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.016652 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1187.wav
+  artifactKey: Guid(d209fb3aef98547eba8e1cd90e1bb380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1187.wav using Guid(d209fb3aef98547eba8e1cd90e1bb380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cd4e8a55ac876e92b7ed857fa1b5ff45') in 0.023681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/MTH_U.anim
+  artifactKey: Guid(69a5af149623d4592b3764b7cb6a7482) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/MTH_U.anim using Guid(69a5af149623d4592b3764b7cb6a7482) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0453670dca8516a09d1286b49a9c9050') in 0.016056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1085.wav
+  artifactKey: Guid(f611addc1ca8f49978d231bf4c2981c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1085.wav using Guid(f611addc1ca8f49978d231bf4c2981c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2fe6be55f36c8a2a66dddffc16902eec') in 0.028470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1032.wav
+  artifactKey: Guid(b3ca52520c030417a8f68efa812cd0e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1032.wav using Guid(b3ca52520c030417a8f68efa812cd0e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9c0a0440d048dad8933d6bb01abf1591') in 0.023691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1114.wav
+  artifactKey: Guid(cb50c340793ac4231acd87859f4668c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1114.wav using Guid(cb50c340793ac4231acd87859f4668c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'afc53f703536a93556900503d82ebb3b') in 0.023426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WALK00_L.fbx
+  artifactKey: Guid(564ea08c07b9a764d8be6f0bbdddfc1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WALK00_L.fbx using Guid(564ea08c07b9a764d8be6f0bbdddfc1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '87c40ad5dc5e496ed1ab2a5dbc24246f') in 0.041110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 325
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1149.wav
+  artifactKey: Guid(3d60b9dbd01634aecaa6d4e6ff40694b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1149.wav using Guid(3d60b9dbd01634aecaa6d4e6ff40694b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a6ba4b18c7d795c3792c8c9c192d45b6') in 0.023586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WALK00_F.fbx
+  artifactKey: Guid(e52be2fa48716194ea1d9d76686005f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WALK00_F.fbx using Guid(e52be2fa48716194ea1d9d76686005f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a4a939618015f56d69c35026f00813f5') in 0.028368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 325
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1145.wav
+  artifactKey: Guid(eb60ea4d87918435889300fe9982e242) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1145.wav using Guid(eb60ea4d87918435889300fe9982e242) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7a06d69d875417002f5f14d0f316a161') in 0.019197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1067.wav
+  artifactKey: Guid(b2f13aafd2de545419eb588ac7cda353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1067.wav using Guid(b2f13aafd2de545419eb588ac7cda353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '358f897cd82abf216da1f4601c1d1e51') in 0.023203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/eye_iris_R_00.tga
+  artifactKey: Guid(7521661d2d6cebb479dea03e7336e5de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/eye_iris_R_00.tga using Guid(7521661d2d6cebb479dea03e7336e5de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dedb981665db386f2c5862e7ad25c565') in 0.014647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1160.wav
+  artifactKey: Guid(f88751c97e67a45bead6b56942fe4ee0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1160.wav using Guid(f88751c97e67a45bead6b56942fe4ee0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a73fb2ebb1f1d763dc62eba11df893fb') in 0.024082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/sap@unitychan.anim
+  artifactKey: Guid(ff0ec808b24b748e482e13ebfc9305ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/sap@unitychan.anim using Guid(ff0ec808b24b748e482e13ebfc9305ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'db2be8cf70a17b7583685d729c2b2d1e') in 0.012137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1106.wav
+  artifactKey: Guid(094de76b4ed3d48f19844f529665011b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1106.wav using Guid(094de76b4ed3d48f19844f529665011b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd9fa590ef1ef126baa6d89a870dbaa57') in 0.021276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/English/01Unity-Chan License Terms and Condition_EN_UCL2.0.pdf
+  artifactKey: Guid(25f6a06eb1fc1cd4e89654f3697f1964) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/English/01Unity-Chan License Terms and Condition_EN_UCL2.0.pdf using Guid(25f6a06eb1fc1cd4e89654f3697f1964) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f8fa3b0d84cbabf6488f9c94b3320d81') in 0.012801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1219.wav
+  artifactKey: Guid(93c68fb116be945f691bb71346745d41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1219.wav using Guid(93c68fb116be945f691bb71346745d41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e140d40b2d11275bbb2a8afb96d67f42') in 0.026515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1035.wav
+  artifactKey: Guid(c512a55406d8045f2b636cf4bf853448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1035.wav using Guid(c512a55406d8045f2b636cf4bf853448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ee3c5d87b6b8c578caf5f414268f2ab2') in 0.024958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1293.wav
+  artifactKey: Guid(e9432b54f671747ebb900e785d426268) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1293.wav using Guid(e9432b54f671747ebb900e785d426268) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f1ff103eea0f4ec2d3b88b7426fb4905') in 0.022394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Materials/body.mat
+  artifactKey: Guid(bb570020a8c3bad4bbf803af20e78937) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Materials/body.mat using Guid(bb570020a8c3bad4bbf803af20e78937) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2ac6e1c33350f41f330b6bbc5c992fff') in 0.017741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ0037.wav
+  artifactKey: Guid(5545b4aa0573e4c96b26e3b6d6514d5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ0037.wav using Guid(5545b4aa0573e4c96b26e3b6d6514d5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '84bbd8418f0055922ddae93b85b1d914') in 0.020967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003013 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ0001.wav
+  artifactKey: Guid(eed2451bbd4264da8b6c27c92df62faf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ0001.wav using Guid(eed2451bbd4264da8b6c27c92df62faf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '542eace62fbf88ffb4e8f5ee50d60c28') in 0.022932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1028.wav
+  artifactKey: Guid(019dd0e8917f24eb5a10e29c4909dbc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1028.wav using Guid(019dd0e8917f24eb5a10e29c4909dbc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '116598e461e37ae08f56766de5fef781') in 0.022236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1296.wav
+  artifactKey: Guid(1fb0ca26e45a74ada8493f41a4a21570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1296.wav using Guid(1fb0ca26e45a74ada8493f41a4a21570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '025fbdb494d371bceedf4c75ea9ae8e4') in 0.024011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/SplashScreen/Animations/Voice.anim
+  artifactKey: Guid(62ab4018993ae47b9a2a4b0d86b52035) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/SplashScreen/Animations/Voice.anim using Guid(62ab4018993ae47b9a2a4b0d86b52035) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e3d7b32b3d486c36630e12efd7b622ac') in 0.009420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1130.wav
+  artifactKey: Guid(eb7ccda557cbe46c1bc29b67b5d90dd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1130.wav using Guid(eb7ccda557cbe46c1bc29b67b5d90dd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9854b9aca10ad73165678127bdcfec34') in 0.021253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.023235 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1189.wav
+  artifactKey: Guid(6e84fbb35996f4c748507964e9c1d105) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1189.wav using Guid(6e84fbb35996f4c748507964e9c1d105) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '30831b6977e0f3a8738bfce8d433ade4') in 0.024483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1113.wav
+  artifactKey: Guid(858df660ee2f04232b04615ea143bff5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1113.wav using Guid(858df660ee2f04232b04615ea143bff5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '72c231a03eda07874679d03eb05c0fa0') in 0.023167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art
+  artifactKey: Guid(defce7c728fb01d49a7a7e9205dbde77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art using Guid(defce7c728fb01d49a7a7e9205dbde77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9e66c8cc75ce1c5a9d343130c2040381') in 0.011515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1201.wav
+  artifactKey: Guid(ea328a2994ed042899f3c5057c903a88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1201.wav using Guid(ea328a2994ed042899f3c5057c903a88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bd6be62a275a50e3c42accfc53a29374') in 0.022877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1088.wav
+  artifactKey: Guid(bbf42c83ce5bb4045a4a63e8ae0e5656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1088.wav using Guid(bbf42c83ce5bb4045a4a63e8ae0e5656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e348561ca5251921debdda837a884e57') in 0.027121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1243.wav
+  artifactKey: Guid(c499dad9f455240faa7c4a9964c09f3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1243.wav using Guid(c499dad9f455240faa7c4a9964c09f3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6241107b58181bf1cf0017089f31a063') in 0.023018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1319.wav
+  artifactKey: Guid(c46659c4399554ccf87d41cc44b24ee0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1319.wav using Guid(c46659c4399554ccf87d41cc44b24ee0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ef417eaf9059c53a1a7a15a039d8f37') in 0.026007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/conf@unitychan.anim
+  artifactKey: Guid(2d64a878e09fc46ce9d3079357ebb3a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/conf@unitychan.anim using Guid(2d64a878e09fc46ce9d3079357ebb3a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd8b1f7194491d6c1062aa54cf15476ba') in 0.011602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Stage/Textures/unitychan_tile6.png
+  artifactKey: Guid(44c03eb9b0d2ef34b9e7a60eec7f1b1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Stage/Textures/unitychan_tile6.png using Guid(44c03eb9b0d2ef34b9e7a60eec7f1b1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9486a2c5519c633c7357bb15a6b10d3b') in 0.017376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_ARpose1.fbx
+  artifactKey: Guid(e8397bfde2758f942a04edaaf7ad57ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_ARpose1.fbx using Guid(e8397bfde2758f942a04edaaf7ad57ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bbe2164a2800c9a63ca0d493f22a3b50') in 0.072160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 300
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/SplashScreen
+  artifactKey: Guid(c8c132d65fec645bea7e69631da40d73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/SplashScreen using Guid(c8c132d65fec645bea7e69631da40d73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '91590f09bb0646926adfe9e3bd8cef08') in 0.011148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs
+  artifactKey: Guid(a38e39ada51aaba4db6d352ce218849e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs using Guid(a38e39ada51aaba4db6d352ce218849e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0260ff1788bd1625a0b27cce0e0952be') in 0.011972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ0023.wav
+  artifactKey: Guid(436f01e35ef0542f8b42c9b0d0907ea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ0023.wav using Guid(436f01e35ef0542f8b42c9b0d0907ea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '810ec39fc7c20512137784ad9bb95cff') in 0.026098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/guide.tga
+  artifactKey: Guid(d04d722a0c808412ea85876950eec517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/guide.tga using Guid(d04d722a0c808412ea85876950eec517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '972531b33e3a58ba51748ecf3b745da5') in 0.016933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1206.wav
+  artifactKey: Guid(75a66616705814a249c79a1c7aa36339) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1206.wav using Guid(75a66616705814a249c79a1c7aa36339) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1f37fd05c3750e84e5e04409b5e012d0') in 0.026363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/License Logo/Others/jpg
+  artifactKey: Guid(1ce90d5d5a97f004eaf55829a24323a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/License Logo/Others/jpg using Guid(1ce90d5d5a97f004eaf55829a24323a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c7cc493e093b3bf22693cd8f62e04f23') in 0.011313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1099.wav
+  artifactKey: Guid(e92ffffa558284658aca79f7b72b7e58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1099.wav using Guid(e92ffffa558284658aca79f7b72b7e58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8419dff80fa66f0de7047bf816088104') in 0.022692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1037.wav
+  artifactKey: Guid(e03833cb4ed7d4fea97d580ce1be24da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1037.wav using Guid(e03833cb4ed7d4fea97d580ce1be24da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '778f749ffb64d39e623eaefb5c23a645') in 0.026149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1118.wav
+  artifactKey: Guid(57efe523f4fd14bd8ab2322a52c296db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1118.wav using Guid(57efe523f4fd14bd8ab2322a52c296db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7cda259b4ace02823a054c7e49a7dd91') in 0.020914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/SplashScreen/Logo
+  artifactKey: Guid(07b382c722cee448a96ba2927eefacc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/SplashScreen/Logo using Guid(07b382c722cee448a96ba2927eefacc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '57fe2a8a29c8c3d4223f71f17d4685e4') in 0.010930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1163.wav
+  artifactKey: Guid(62659a110adb84d02814960fac22a489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1163.wav using Guid(62659a110adb84d02814960fac22a489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7436739e5011f57e55a2f90079f5892b') in 0.024960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio
+  artifactKey: Guid(c388b2cfb1710a449aeb185fe484b341) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio using Guid(c388b2cfb1710a449aeb185fe484b341) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '05b1d5b94ef955b28a18500a5782b858') in 0.010645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/SplashScreen/Logo/Light_Silhouette.png
+  artifactKey: Guid(f0b1c60b0227e4e1fa89a56252ded127) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/SplashScreen/Logo/Light_Silhouette.png using Guid(f0b1c60b0227e4e1fa89a56252ded127) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e1f25b3e5383cc38f15a416192eda378') in 0.023596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/MTH_E.anim
+  artifactKey: Guid(63e3bd86527074923b9dc38ddb715245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/MTH_E.anim using Guid(63e3bd86527074923b9dc38ddb715245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dba6f9b4a4aca47ac15750a620243494') in 0.014519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1182.wav
+  artifactKey: Guid(5373ec0c2f6b24e3797cfc76a4dcb8b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1182.wav using Guid(5373ec0c2f6b24e3797cfc76a4dcb8b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f1f2530e75354759f1932701cc4c5951') in 0.030516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Stage/Materials/unitychan_tile5.mat
+  artifactKey: Guid(0fabbaa20a36d468a84e4925db02ecc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Stage/Materials/unitychan_tile5.mat using Guid(0fabbaa20a36d468a84e4925db02ecc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '780219051cefa69fedfe3378a3ccd1bb') in 0.034324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Editor
+  artifactKey: Guid(0ed7722d085f04820ba89e8fb4d451a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Editor using Guid(0ed7722d085f04820ba89e8fb4d451a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4258b9db100704a4e1613d7f8a15540b') in 0.010716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/English
+  artifactKey: Guid(b03156dda204710499f2c76c01cd4a92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/English using Guid(b03156dda204710499f2c76c01cd4a92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '84fc4f31e0773b1cfc4e02d28b4009bb') in 0.012568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1107.wav
+  artifactKey: Guid(20f1f9f2c7b3c4592acb4e32c1646bcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1107.wav using Guid(20f1f9f2c7b3c4592acb4e32c1646bcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '616a216a1591af799608a62c5b71fcc0') in 0.023347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Scenes/ARPoseTest.unity
+  artifactKey: Guid(dc19d125674d55e4395fbb75f6d6f855) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Scenes/ARPoseTest.unity using Guid(dc19d125674d55e4395fbb75f6d6f855) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8b856a3481fce01b7c8bf08585ca1cd2') in 0.009633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/face only mask.mask
+  artifactKey: Guid(c6893d99d338240cd834967aa6448379) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/face only mask.mask using Guid(c6893d99d338240cd834967aa6448379) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f9da546360620d173c6592fdfe9f16fc') in 0.009794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ0013.wav
+  artifactKey: Guid(23b4a85d442dc4abb8d2c6559b135c3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ0013.wav using Guid(23b4a85d442dc4abb8d2c6559b135c3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c094e7ad0bbb281a0246168a31795cdc') in 0.024495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1042.wav
+  artifactKey: Guid(69c6fe1b4f1fe481cb08acebb5f79226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1042.wav using Guid(69c6fe1b4f1fe481cb08acebb5f79226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5f0c8e63d7817cec49df784f53d8c7d8') in 0.022996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1268.wav
+  artifactKey: Guid(6207f3a1a57f6443c94c803b950e04c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1268.wav using Guid(6207f3a1a57f6443c94c803b950e04c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5f7d5c65f58d7363e179af8970910c14') in 0.029503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1157.wav
+  artifactKey: Guid(d34d0b630b6e44dfebef02e0b3d2133e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1157.wav using Guid(d34d0b630b6e44dfebef02e0b3d2133e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '33a1a9df9b04e96b53bbadacc460e83c') in 0.024807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1234.wav
+  artifactKey: Guid(33862593e801147b594c751747c409ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1234.wav using Guid(33862593e801147b594c751747c409ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a1eb7265273183e6978fce5ab195fd9d') in 0.022765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP01B.fbx
+  artifactKey: Guid(c49b7faf71cf048418fe526d8e233c8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP01B.fbx using Guid(c49b7faf71cf048418fe526d8e233c8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cfeae72b10b9660cdb619e10874f6491') in 0.036240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 325
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/License Logo/Others/png/Dark_Silhouette.png
+  artifactKey: Guid(e534fa5e8d6bad340bbc9196dabe6f51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/License Logo/Others/png/Dark_Silhouette.png using Guid(e534fa5e8d6bad340bbc9196dabe6f51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '98f195c724b5aff3c68469b96c1bca74') in 0.015247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1129.wav
+  artifactKey: Guid(5728f57b2fd1e4b14b98288768c7d054) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1129.wav using Guid(5728f57b2fd1e4b14b98288768c7d054) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '66a950a01d3b3195a99d7d39952131f2') in 0.025123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1324.wav
+  artifactKey: Guid(645349beb0b074a5ca47de9e78862ab2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1324.wav using Guid(645349beb0b074a5ca47de9e78862ab2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '58ba5979121105072f744be3384e4c87') in 0.022447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/Animators
+  artifactKey: Guid(c8838c29f8f5f47ce889e797aef95a3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/Animators using Guid(c8838c29f8f5f47ce889e797aef95a3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fda7d7fac4f6d0620790cacb69a04f82') in 0.011026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Materials/eye_R1.mat
+  artifactKey: Guid(f37e71293707f43b9b83c1925ad01bd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Materials/eye_R1.mat using Guid(f37e71293707f43b9b83c1925ad01bd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '850e1c195d43f9783f2a4b141cfecb9d') in 0.012364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1289.wav
+  artifactKey: Guid(eab462f39e9b945ed810305dea310fa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1289.wav using Guid(eab462f39e9b945ed810305dea310fa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c803c1364412b21f4e3e34644823eda2') in 0.026424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1326.wav
+  artifactKey: Guid(d2099b8ef27dd4341a377866ed1e643f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1326.wav using Guid(d2099b8ef27dd4341a377866ed1e643f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fc76145708e077d2b2b9da4fbdc1a4a9') in 0.022049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/License Logo/Others/jpg/Dark_Silhouette.jpg
+  artifactKey: Guid(29ceb9749c224174e9177a5c1ab7a909) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/License Logo/Others/jpg/Dark_Silhouette.jpg using Guid(29ceb9749c224174e9177a5c1ab7a909) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c873f99757c2e510960c0e4f4e894c7f') in 0.019692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1159.wav
+  artifactKey: Guid(dfad0cbe01e48476a81bd7b9ee514e59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1159.wav using Guid(dfad0cbe01e48476a81bd7b9ee514e59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e2cee5b35df82ca3f9c3adbc328ee302') in 0.020823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1009.wav
+  artifactKey: Guid(95fd24e8209c14421bb395be7fd2b940) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1009.wav using Guid(95fd24e8209c14421bb395be7fd2b940) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '034a40067915d5c81a39b0c74c3168d8') in 0.023326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1279.wav
+  artifactKey: Guid(24f4cbf3b62964fa8ae2bf57346142a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1279.wav using Guid(24f4cbf3b62964fa8ae2bf57346142a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '47676568f660291d4ff2c38388696017') in 0.022486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1304.wav
+  artifactKey: Guid(b0a155abff31a4301bdc8fd204c8d520) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1304.wav using Guid(b0a155abff31a4301bdc8fd204c8d520) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '792c9da4e2a9a53a67b1d7a0eb8ac6c6') in 0.023060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1340.wav
+  artifactKey: Guid(51791f91b88ea494cbd397f882da7585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1340.wav using Guid(51791f91b88ea494cbd397f882da7585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '681b0bec45336dae7ddd6a961a53f370') in 0.024454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1227.wav
+  artifactKey: Guid(460213ea8954a4e558d576a727d35c42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1227.wav using Guid(460213ea8954a4e558d576a727d35c42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7af49abe17e619558158a969b5fa013b') in 0.023179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1331.wav
+  artifactKey: Guid(82c2dbaff3c4b4953a940457d03f194c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1331.wav using Guid(82c2dbaff3c4b4953a940457d03f194c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '899871d9b9eae32f57dfc30cda063555') in 0.021705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1257.wav
+  artifactKey: Guid(0bcf363c116234b2eb593bac01a170d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1257.wav using Guid(0bcf363c116234b2eb593bac01a170d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4654800591e1831a4c155ddbc00ad30d') in 0.021815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_ARpose2.fbx
+  artifactKey: Guid(edd51f298e7994c498b99bd24c098f52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_ARpose2.fbx using Guid(edd51f298e7994c498b99bd24c098f52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8ba718a7401ca013abe22d370afc6f21') in 0.096012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 307
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/skin_01.tga
+  artifactKey: Guid(cc51a9a8397e3c5498dda60419ad3ec9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/skin_01.tga using Guid(cc51a9a8397e3c5498dda60419ad3ec9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '02615bc864e3409ff05aec58fed83d10') in 0.016396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Prefabs/for Locomotion
+  artifactKey: Guid(9aeff261260b248328b8ce74346dc8fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Prefabs/for Locomotion using Guid(9aeff261260b248328b8ce74346dc8fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2eb13f83dcaba00d8e3f80c0bd3ffd0b') in 0.012040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Picola/PicoChan/Models
+  artifactKey: Guid(de696574f132be14983a9e61c6568baa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Models using Guid(de696574f132be14983a9e61c6568baa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9ce48cb462c5f2c0563d176111f5cad0') in 0.011299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1138.wav
+  artifactKey: Guid(3902bb59b9d144499ab297f996a88db3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1138.wav using Guid(3902bb59b9d144499ab297f996a88db3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e74aa275d357fb7d0a4080f1cdf8fa2e') in 0.024503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Picola/PicoChan/Materials/pico_eye_m.mat
+  artifactKey: Guid(878aefd75248a2046904bc20188aeef8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Materials/pico_eye_m.mat using Guid(878aefd75248a2046904bc20188aeef8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '02819a9aa16cdb101dd3afb17942570c') in 0.014553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Picola/PicoChan/Materials/pico_body_m.mat
+  artifactKey: Guid(4d9e79636f142374baf5df39ad6fe194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Materials/pico_body_m.mat using Guid(4d9e79636f142374baf5df39ad6fe194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd68726189e22a769572ddf1955892313') in 0.011835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1230.wav
+  artifactKey: Guid(e0d458a6e98644678aee0f0bc8c334aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1230.wav using Guid(e0d458a6e98644678aee0f0bc8c334aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8a7442f5a95a8fdc82b47089c43e1e2e') in 0.022593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1020.wav
+  artifactKey: Guid(1fd7d2c354c86467cb0e57f86e88cdb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1020.wav using Guid(1fd7d2c354c86467cb0e57f86e88cdb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb3e01d7cad18269cf65b99fe5ec7b3e') in 0.026155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Picola/PicoChan/README.md
+  artifactKey: Guid(d89a9e672aa1fc94aa3695498394cc76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/README.md using Guid(d89a9e672aa1fc94aa3695498394cc76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '282c9d93585902cae71584fa43743d68') in 0.018655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1269.wav
+  artifactKey: Guid(f2b59bee921964dd09695b4844f9f5a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1269.wav using Guid(f2b59bee921964dd09695b4844f9f5a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '701bd12b2faf166fd7d3a044c7b98b5b') in 0.024920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/angry2@unitychan.anim
+  artifactKey: Guid(66c6a39c175f346f6b2e3016fa5ae35b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/angry2@unitychan.anim using Guid(66c6a39c175f346f6b2e3016fa5ae35b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'faf4ffac6ef305bd172b7f07b20cc934') in 0.013865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/SplashScreen/Animations/FadeIn.anim
+  artifactKey: Guid(4bd5bac4ccdae4f9c85135b8fd7da355) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/SplashScreen/Animations/FadeIn.anim using Guid(4bd5bac4ccdae4f9c85135b8fd7da355) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '878a7c7bb4ef8686971baade5bcc82a2') in 0.017211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1168.wav
+  artifactKey: Guid(41246cf5359974997ac6c9e8e3e66933) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1168.wav using Guid(41246cf5359974997ac6c9e8e3e66933) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2ef80a19aef526c43649a46b50b5f7e1') in 0.022635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1064.wav
+  artifactKey: Guid(a18a00f3bd41641c9882ee6b51ea1b15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1064.wav using Guid(a18a00f3bd41641c9882ee6b51ea1b15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '680ffca1f531af3d419af2b757936c12') in 0.027761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Picola/PicoChan/Textures
+  artifactKey: Guid(557e4e4071991ba4ea2811572f4a75ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Textures using Guid(557e4e4071991ba4ea2811572f4a75ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f77dd8f998580762c3983284862cbaae') in 0.008727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Picola/PicoChan/Materials/pico_clothes_lens_m.mat
+  artifactKey: Guid(a536b623e9a4ec54581a8c2fc17418fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Materials/pico_clothes_lens_m.mat using Guid(a536b623e9a4ec54581a8c2fc17418fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '39312a8c205b93093ee5f25d5605beb9') in 0.010493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Picola/PicoChan/Materials
+  artifactKey: Guid(77564403199e8a84a9b89848cff1a65f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Materials using Guid(77564403199e8a84a9b89848cff1a65f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '422f034a86b0b16ed8c470d2f8e888d2') in 0.012819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1218.wav
+  artifactKey: Guid(33efb526ba80749b1bd33f32186a3a1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1218.wav using Guid(33efb526ba80749b1bd33f32186a3a1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2cc60e44fd66835ea1f1adfe1d3a0d2b') in 0.026024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1175.wav
+  artifactKey: Guid(d99e85421202f4fcbbe6feff2ff4d365) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1175.wav using Guid(d99e85421202f4fcbbe6feff2ff4d365) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '21905b2c414158549094f4b362816b34') in 0.033601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/ASHAMED.anim
+  artifactKey: Guid(3555863ff4ef948e298b8d11ea795ec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/FaceAnimation/ASHAMED.anim using Guid(3555863ff4ef948e298b8d11ea795ec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fcf0b36cb8fcd9179045bf7a6a9aade1') in 0.012149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Picola/PicoChan/Materials/pico_face_m.mat
+  artifactKey: Guid(b025e7212b95566479c77e8be2cc07ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Materials/pico_face_m.mat using Guid(b025e7212b95566479c77e8be2cc07ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bee72da6ada6a61ea130455e56076759') in 0.010728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1004.wav
+  artifactKey: Guid(5f495037948cf49269a56b62f7b9e8e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1004.wav using Guid(5f495037948cf49269a56b62f7b9e8e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f18c9d63b1f3a848745da50061e3317b') in 0.024525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1259.wav
+  artifactKey: Guid(872311653da1a4d1f90f26302192edd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1259.wav using Guid(872311653da1a4d1f90f26302192edd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '995d593b75cf03abebec73143479f5cb') in 0.021519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1102.wav
+  artifactKey: Guid(aee940efac05040fbb88af335ec14145) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1102.wav using Guid(aee940efac05040fbb88af335ec14145) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a76d4d98283a4c8b57afbb388f2babe5') in 0.024437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/cheek_00.tga
+  artifactKey: Guid(89ede59217e3847c39c444f223f4084e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/cheek_00.tga using Guid(89ede59217e3847c39c444f223f4084e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dc6f1e143c09447d97f78dc0809d9435') in 0.018683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader
+  artifactKey: Guid(37a9d016da7c84d7d8c3c90eb6399f0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader using Guid(37a9d016da7c84d7d8c3c90eb6399f0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dd3c5f775b1d1701c54004cec147a5d7') in 0.010634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Picola/PicoChan/Materials/pico_eye_h_m.mat
+  artifactKey: Guid(f974f43b29494b941906f0eb9d727614) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Materials/pico_eye_h_m.mat using Guid(f974f43b29494b941906f0eb9d727614) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '63096fdfde97246a6ffb5a42f3ed9245') in 0.016190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1016.wav
+  artifactKey: Guid(514dfaed2534942e8a5c5f7f253ed89b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1016.wav using Guid(514dfaed2534942e8a5c5f7f253ed89b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '837440e60f9fa96072a10b03837a37f1') in 0.025915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1126.wav
+  artifactKey: Guid(c906f93ef18df410598c1cb290b4fcca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1126.wav using Guid(c906f93ef18df410598c1cb290b4fcca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '11ca117fd102a46ae968722bf7a99a54') in 0.026435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ0005.wav
+  artifactKey: Guid(687990b2a12cc4b6db34fdeceb9b8636) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ0005.wav using Guid(687990b2a12cc4b6db34fdeceb9b8636) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '35d7232146eaf6f6fc921ea20789b445') in 0.022191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Picola/PicoChan/Textures/pico_chan_chr_pico_00_hair_c.png
+  artifactKey: Guid(4464871847db3c14b949eb453ba68c76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Textures/pico_chan_chr_pico_00_hair_c.png using Guid(4464871847db3c14b949eb453ba68c76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2f2b183d7183768237086e61f6538623') in 0.053759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_DAMAGED00.fbx
+  artifactKey: Guid(6dd5b57ca7c0d48e4b3e9061e1c88d18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_DAMAGED00.fbx using Guid(6dd5b57ca7c0d48e4b3e9061e1c88d18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '32613fdbc415cca01253f2291c4c2d7c') in 0.028515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 325
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1053.wav
+  artifactKey: Guid(fadc015731df949d8a63073eac5da671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1053.wav using Guid(fadc015731df949d8a63073eac5da671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1479066d14de1731109509778d32ef5c') in 0.027598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1151.wav
+  artifactKey: Guid(d2d3ebeeaa2564a2fa5228a7df702bec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1151.wav using Guid(d2d3ebeeaa2564a2fa5228a7df702bec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '79993e648601e60749c75f501006d980') in 0.030790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1055.wav
+  artifactKey: Guid(0d3efb3f6e6414a43bfcbaecd788f578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1055.wav using Guid(0d3efb3f6e6414a43bfcbaecd788f578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78f048a234e51e1cd0c62b0f40d18bf8') in 0.022697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1197c.wav
+  artifactKey: Guid(29f909cdfba9e4028b7899e00a166918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1197c.wav using Guid(29f909cdfba9e4028b7899e00a166918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'db99f24b0041d2d2b2f875ddbee55635') in 0.020165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/Stage
+  artifactKey: Guid(5748270dde7fe4817b258c4c0470aed8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/Stage using Guid(5748270dde7fe4817b258c4c0470aed8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c871a7391f58145088513a617c66e814') in 0.012984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/SplashScreen/Scripts
+  artifactKey: Guid(0c7df6367c2bd4957b64453083168991) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/SplashScreen/Scripts using Guid(0c7df6367c2bd4957b64453083168991) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6444f693f8b2949916f5f8066c18b8ff') in 0.011985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Prefabs/BoxUnityChan.prefab
+  artifactKey: Guid(6788413dff62c534d8ca610faef3c7a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Prefabs/BoxUnityChan.prefab using Guid(6788413dff62c534d8ca610faef3c7a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5ed5cc43b1ebd7ed1d3f0ff204bde7b4') in 0.017409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 453
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1136.wav
+  artifactKey: Guid(5167ee0c131d0471995e0e66aa1aee40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1136.wav using Guid(5167ee0c131d0471995e0e66aa1aee40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3c91de13349213b3999af2da6f0b06fa') in 0.025166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture
+  artifactKey: Guid(5d48b74ab15384cb4890c8670fa6b180) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture using Guid(5d48b74ab15384cb4890c8670fa6b180) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd627069ffde3205345cac30bd678b911') in 0.010630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1333.wav
+  artifactKey: Guid(200f6aa17501b414e9f7460618168fe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/unity-chan!/Unity-chan! Model/Audio/Voice/univ1333.wav using Guid(200f6aa17501b414e9f7460618168fe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7206bf4c1383e8e3c8cad8963f8dbba6') in 0.027241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.426 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.026 seconds
+Domain Reload Profiling: 1448ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (254ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1026ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (407ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 5.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4746 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (315.9 KB). Loaded Objects now: 5381.
+Memory consumption went from 174.1 MB to 173.8 MB.
+Total: 4.081100 ms (FindLiveObjects: 0.433900 ms CreateObjectMapping: 0.336700 ms MarkObjects: 3.190900 ms  DeleteObjects: 0.118600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
