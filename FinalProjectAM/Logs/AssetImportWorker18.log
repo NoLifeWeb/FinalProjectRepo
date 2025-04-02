@@ -15,7 +15,7 @@ C:/Users/pichu/FinalProjectRepo/FinalProjectAM
 -logFile
 Logs/AssetImportWorker18.log
 -srvPort
-51954
+53005
 Successfully changed project path to: C:/Users/pichu/FinalProjectRepo/FinalProjectAM
 C:/Users/pichu/FinalProjectRepo/FinalProjectAM
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,21 +49,21 @@ C:/Users/pichu/FinalProjectRepo/FinalProjectAM
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14556]  Target information:
+Player connection [28008]  Target information:
 
-Player connection [14556]  * "[IP] 192.168.216.1 [Port] 0 [Flags] 2 [Guid] 495251370 [EditorId] 495251370 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-76480M49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28008]  * "[IP] 192.168.216.1 [Port] 0 [Flags] 2 [Guid] 1087662790 [EditorId] 1087662790 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-76480M49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14556]  * "[IP] 192.168.58.1 [Port] 0 [Flags] 2 [Guid] 495251370 [EditorId] 495251370 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-76480M49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28008]  * "[IP] 192.168.58.1 [Port] 0 [Flags] 2 [Guid] 1087662790 [EditorId] 1087662790 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-76480M49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14556]  * "[IP] 10.66.130.134 [Port] 0 [Flags] 2 [Guid] 495251370 [EditorId] 495251370 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-76480M49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28008]  * "[IP] 10.66.130.134 [Port] 0 [Flags] 2 [Guid] 1087662790 [EditorId] 1087662790 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-76480M49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14556]  * "[IP] 10.6.178.16 [Port] 0 [Flags] 2 [Guid] 495251370 [EditorId] 495251370 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-76480M49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28008]  * "[IP] 192.168.1.242 [Port] 0 [Flags] 2 [Guid] 1087662790 [EditorId] 1087662790 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-76480M49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14556] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [14556] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28008] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28008] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 19.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.59f1 (630718f645a5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/Resources/UnitySubsystems
@@ -79,47 +79,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016791 seconds.
-- Loaded All Assemblies, in  0.507 seconds
+Registered in 0.011636 seconds.
+- Loaded All Assemblies, in  0.346 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 280 ms
+Android Extension - Scanning For ADB Devices 225 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.736 seconds
-Domain Reload Profiling: 1240ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  0.521 seconds
+Domain Reload Profiling: 865ms
+	BeginReloadAssembly (105ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (87ms)
-	LoadAllAssembliesAndSetupDomain (188ms)
-		LoadAssemblies (149ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (103ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (186ms)
-			TypeCache.Refresh (184ms)
-				TypeCache.ScanAssembly (169ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (118ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (737ms)
+	FinalizeReload (522ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (676ms)
+		SetupLoadedEditorAssemblies (480ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (390ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (315ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (195ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -128,67 +128,170 @@ Domain Reload Profiling: 1240ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.834 seconds
+- Loaded All Assemblies, in  0.603 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.079 seconds
-Domain Reload Profiling: 1908ms
-	BeginReloadAssembly (179ms)
+- Finished resetting the current domain, in  0.572 seconds
+Domain Reload Profiling: 1171ms
+	BeginReloadAssembly (140ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (530ms)
-		LoadAssemblies (357ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (381ms)
+		LoadAssemblies (278ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (275ms)
-			TypeCache.Refresh (230ms)
-				TypeCache.ScanAssembly (204ms)
-			ScanForSourceGeneratedMonoScriptInfo (30ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1079ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (573ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (867ms)
+		SetupLoadedEditorAssemblies (414ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (47ms)
+			InitializePlatformSupportModulesInManaged (16ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (165ms)
-			ProcessInitializeOnLoadAttributes (561ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 7.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4909 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (347.7 KB). Loaded Objects now: 5377.
-Memory consumption went from 202.7 MB to 202.4 MB.
-Total: 5.006900 ms (FindLiveObjects: 0.428400 ms CreateObjectMapping: 0.328500 ms MarkObjects: 3.986300 ms  DeleteObjects: 0.262500 ms)
+Unloading 5053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.7 MB). Loaded Objects now: 5521.
+Memory consumption went from 227.5 MB to 226.9 MB.
+Total: 5.788000 ms (FindLiveObjects: 0.491100 ms CreateObjectMapping: 0.389900 ms MarkObjects: 4.452900 ms  DeleteObjects: 0.453200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/UnityChanControlScriptWithRgidBody.cs: f93a5d4c41203833745f195667a8d5db -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/SplashScreen.cs: 6c6c37897b93bb9a6c31f7924f0ecb9c -> 
+  custom:scripting/monoscript/fileName/SpringManager.cs: 2305b639182e6e0828314a19c0d5a7d0 -> 
+  custom:scripting/monoscript/fileName/IdleChanger.cs: e2174b8c7f90f2d49a9c826bcd31f625 -> 
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/SpringBone.cs: 989f2d558f1c00c3b0c7133fbe676485 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpringCollider.cs: 611015d43f843d0a8a816baeac1892d3 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/RandomWind.cs: be31d0f94b239f7e0b4b46a319d3ba3b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AutoBlink.cs: e719fce70f46c90402d12ff39a4f7365 -> 
+  custom:scripting/monoscript/fileName/IKCtrlRightHand.cs: 3af9bf3fc39d24bcbc842065abcef555 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/FaceUpdate.cs: cab0fb8c8d65ae2e8ae8c5b3a02b4d4b -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: 237eb1ea9a4c37f8fb087ea1161536eb -> 90f26c7c63924735c23c826b8a781463
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ThirdPersonCamera.cs: 35de7e6ba15e5b9fdadcda09253e7a10 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-Editor requested this worker to shutdown with reason: balancing worker count downwards
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 6730144dd651ff58a52cae5f8d1ed7d2 -> 20cdaaa988618e7c32f4baf96f88c255
+========================================================================
+Received Import Request.
+  Time since last request: 101898.434313 seconds.
+  path: Assets/Horror Hospital Pack/Models/SD/mSD.mat
+  artifactKey: Guid(4576faa75149c8c4899f7f48951da25c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Horror Hospital Pack/Models/SD/mSD.mat using Guid(4576faa75149c8c4899f7f48951da25c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fc75b2b3ebccc71eddd7f824d7a0269c') in 0.622484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Horror Hospital Pack/Materials/Floor/mFloor.mat
+  artifactKey: Guid(55e0ca47a73def6408ffc66bc2e20c37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Horror Hospital Pack/Materials/Floor/mFloor.mat using Guid(55e0ca47a73def6408ffc66bc2e20c37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5b8dc856fb0f5d87f65b72d77cf422c4') in 0.037710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Horror Hospital Pack/Models/Lamp/mLamp.mat
+  artifactKey: Guid(0529c95baad5a264787a242f949623c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Horror Hospital Pack/Models/Lamp/mLamp.mat using Guid(0529c95baad5a264787a242f949623c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f9cadf3b0473c4408ccd978e89ade64e') in 0.037037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Horror Hospital Pack/Models/Wall/WallDiffuse.mat
+  artifactKey: Guid(b4f289f5dfeab2a4e95f745560cfe1da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Horror Hospital Pack/Models/Wall/WallDiffuse.mat using Guid(b4f289f5dfeab2a4e95f745560cfe1da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0a5da287a438441512d0b30246b1c613') in 0.025278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 235.792831 seconds.
+  path: Assets/Horror Hospital Pack/Materials/Sil/Sil.mat
+  artifactKey: Guid(5e775ae87c8c8604c9cb47129c773b9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Horror Hospital Pack/Materials/Sil/Sil.mat using Guid(5e775ae87c8c8604c9cb47129c773b9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c0fd872739a08105f94788cd1627a60b') in 0.019730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Horror Hospital Pack/Models/Door/mDoor.mat
+  artifactKey: Guid(1ef0cd5a64c3aee4a978d9343572596c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Horror Hospital Pack/Models/Door/mDoor.mat using Guid(1ef0cd5a64c3aee4a978d9343572596c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '796921f1c355983ea284e44450e8c43b') in 0.014267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Horror Hospital Pack/Materials/Floor/mFloor.mat
+  artifactKey: Guid(55e0ca47a73def6408ffc66bc2e20c37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Horror Hospital Pack/Materials/Floor/mFloor.mat using Guid(55e0ca47a73def6408ffc66bc2e20c37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dc551f6effe777b4b668d3bd29df07f7') in 0.013857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Horror Hospital Pack/Materials/Floor/mConcrete.mat
+  artifactKey: Guid(6706f85137508b84b8da9cdf75f3fe30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Horror Hospital Pack/Materials/Floor/mConcrete.mat using Guid(6706f85137508b84b8da9cdf75f3fe30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aef270ca378b1f65a3d431848c277371') in 0.015107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Horror Hospital Pack/Models/Bad/mBad.mat
+  artifactKey: Guid(ea9be4074714373448ef5b014f033411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Horror Hospital Pack/Models/Bad/mBad.mat using Guid(ea9be4074714373448ef5b014f033411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '60a78698b8978e3f740f249878561642') in 0.014235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Horror Hospital Pack/Models/Wall/WallDiffuse.mat
+  artifactKey: Guid(b4f289f5dfeab2a4e95f745560cfe1da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Horror Hospital Pack/Models/Wall/WallDiffuse.mat using Guid(b4f289f5dfeab2a4e95f745560cfe1da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '86fa72016e7a044271269dd33da14689') in 0.012455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
 Process exiting

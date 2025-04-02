@@ -397,7 +397,6 @@
 "Assets/Editor/ImageEffects/TonemappingEditor.cs"
 "Assets/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs"
 "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
-"Assets/unity-chan!/Unity-chan! Model/Editor/CreateLocatorHere.cs"
 -langversion:9.0
 /deterministic
 /optimize+
